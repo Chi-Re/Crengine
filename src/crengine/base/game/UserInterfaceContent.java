@@ -3,6 +3,7 @@ package crengine.base.game;
 import crengine.Core;
 import crengine.base.DisplayContent;
 import crengine.base.Location;
+import crengine.base.game.entity.Entity;
 
 import java.awt.*;
 
@@ -10,7 +11,7 @@ import java.awt.*;
  * 显示UI内容(面板)
  * @author 炽热S
  */
-public abstract class UserInterfaceContent extends DisplayContent {
+public abstract class UserInterfaceContent extends DisplayContent implements Entity {
     /**
      * 屏幕显示方式<br>
      * <code>
@@ -42,8 +43,10 @@ public abstract class UserInterfaceContent extends DisplayContent {
     }
 
 
+    @Override
+    public void update(Runnable run) {
 
-
+    }
 
     @Override
     public void drawImage(Graphics g) {
