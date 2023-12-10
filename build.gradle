@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+ext{
+    group = 'chire.crengine'
+    version = '1.0.0'
+    author = "炽热S"
+}
+
+sourceSets.main {
+    java.srcDirs = ["src/"]
+    resources.srcDirs = ["assets/"]
+}
+
+tasks.withType(JavaCompile){
+    options.encoding = "UTF-8"
+}
+
+repositories {
+    mavenCentral()
+    maven{ url 'https://jitpack.io' }
+}
+
+dependencies {
+}
+
+jar{
+    delete "${buildDir}/libs"
+}
+

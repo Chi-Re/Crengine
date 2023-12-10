@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91a95021-8044-4135-b8c2-28cea92b3e1f" name="变更" comment="炽热S">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/ApplicationCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/application/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/application/GameLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/application/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/assets/AssetManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/assets/graphics/Texture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/assets/graphics/TextureRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/AssetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/DisplayContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/Keyboards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/Loadable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/func/Boolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/func/Prov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/ContentLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/Events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/InterfaceTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/UserInterfaceContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/WorldContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/contesnt/BlockBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/contesnt/PlayerBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/contesnt/UnitBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/StartDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/entity/EntityGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/entity/EntityMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/CRLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/CRString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/Nullable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/OS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/exception/CrengineRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/io/CRFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/io/FileExtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/serialization/ObjectList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/serialization/ObjectMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/serialization/Structs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crengine/util/thread/Time.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Crengine" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Crengine" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Crengine" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YXORT3G4Jd6Q84seEvHheWo3Z9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Crengine\assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="crengine.game" />
+      <recent name="crengine.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Crengine [jar]">
+    <configuration name="Crengine [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Crengine [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Crengine [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testClasses" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Crengine.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/Crengine.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Crengine [jar]" />
+        <item itemvalue="Gradle.Crengine [clean]" />
+        <item itemvalue="Gradle.Crengine [testClasses]" />
+        <item itemvalue="JAR 应用程序.Crengine.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="91a95021-8044-4135-b8c2-28cea92b3e1f" name="变更" comment="" />
+      <created>1700668451134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700668451134</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="炽热S" />
+    <option name="LAST_COMMIT_MESSAGE" value="炽热S" />
+  </component>
+</project>
