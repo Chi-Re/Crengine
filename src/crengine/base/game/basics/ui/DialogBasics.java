@@ -1,4 +1,4 @@
-package crengine.base.game;
+package crengine.base.game.basics.ui;
 
 import crengine.Core;
 import crengine.base.DisplayContent;
@@ -11,7 +11,7 @@ import java.awt.*;
  * 显示UI内容(面板)
  * @author 炽热S
  */
-public abstract class UserInterfaceContent extends DisplayContent implements Entity {
+public abstract class DialogBasics extends DisplayContent implements Entity {
     /**
      * 屏幕显示方式<br>
      * <code>
@@ -31,14 +31,14 @@ public abstract class UserInterfaceContent extends DisplayContent implements Ent
 
     public int location;
 
-    public UserInterfaceContent(String name, int location) {
+    public DialogBasics(String name, int location) {
         super(name);
         this.x=0;
         this.y=0;
         this.location = location;
     }
 
-    public UserInterfaceContent(String name){
+    public DialogBasics(String name){
         this(name, 0);
     }
 

@@ -5,60 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a95021-8044-4135-b8c2-28cea92b3e1f" name="变更" comment="炽热S">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/ApplicationCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/application/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/application/GameLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/application/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/assets/AssetManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/assets/graphics/Texture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/assets/graphics/TextureRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/AssetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/DisplayContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/FileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/Keyboards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/Loadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/func/Boolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/func/Prov.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/ContentLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/InterfaceTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/UserInterfaceContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/WorldContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/contesnt/BlockBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/contesnt/PlayerBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/contesnt/UnitBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/StartDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/entity/EntityGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/entity/EntityMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/CRLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/CRString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/Nullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/OS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/exception/CrengineRuntimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/io/CRFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/io/FileExtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/serialization/ObjectList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/serialization/ObjectMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/serialization/Structs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/util/thread/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crengine/base/game/ContentLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/base/game/ContentLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crengine/base/game/InterfaceTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/TableBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crengine/base/game/UserInterfaceContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/DialogBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/StartDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/StartDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

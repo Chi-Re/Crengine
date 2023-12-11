@@ -4,6 +4,7 @@ import crengine.base.DisplayContent;
 
 import crengine.base.game.basics.contesnt.BlockBasics;
 import crengine.base.game.basics.contesnt.UnitBasics;
+import crengine.base.game.basics.ui.DialogBasics;
 import crengine.util.serialization.ObjectList;
 import crengine.util.serialization.ObjectMap;
 
@@ -19,7 +20,7 @@ public class ContentLoader {
 
     private final CopyOnWriteArrayList<WorldContent> worldContents = new CopyOnWriteArrayList<>();
     /**窗口会绘制的*/
-    private final ObjectList<UserInterfaceContent> drawDialog = new ObjectList<>();
+    private final ObjectList<DialogBasics> drawDialog = new ObjectList<>();
 
     public ContentLoader(){
     }
@@ -58,24 +59,24 @@ public class ContentLoader {
     }
 
 
-    public void removeDialog(UserInterfaceContent me){
+    public void removeDialog(DialogBasics me){
         this.drawDialog.remove(me);
     }
 
-    public void addDialog(UserInterfaceContent me){
+    public void addDialog(DialogBasics me){
         this.drawDialog.add(me);
     }
 
-    public ObjectList<UserInterfaceContent> getDialog(){
+    public ObjectList<DialogBasics> getDialog(){
         return this.drawDialog;
     }
 
-    public void toFirstDialog(UserInterfaceContent me){
+    public void toFirstDialog(DialogBasics me){
         this.removeDialog(me);
         this.addDialog(me);
     }
 
-    public boolean contains(UserInterfaceContent me){
+    public boolean contains(DialogBasics me){
         return this.drawDialog.contains(me);
     }
 }
