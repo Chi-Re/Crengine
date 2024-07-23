@@ -8,6 +8,8 @@ import crengine.base.EventType;
 import crengine.base.Keyboards;
 import crengine.base.game.ContentLoader;
 import crengine.base.game.Events;
+import crengine.base.game.basics.contesnt.PlayerBasics;
+import crengine.base.game.basics.ui.dialog.GameDialog;
 import crengine.util.CRLog;
 import crengine.util.io.CRFile;
 import crengine.util.thread.Time;
@@ -17,6 +19,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.ArrayList;
 
 /**
  * 客户端驱动器，可以通过自定义GameLauncher来创建自己的游戏。<br>
@@ -85,6 +88,11 @@ public class ApplicationCore extends JFrame {
         //TODO 注意的，我不确定这副作用，恐怕需要改进
         this.add(this.config.getPanel());
         this.setVisible(true);
+
+        //如果为空，就返回基础开始界面(一般测试用)
+        if (Core.content.getDialog().getAny().size() == 0) {
+            Core.content.addDialog(new GameDialog());
+        }
 
         Time.runTask(5, ()->{
             this.config.getPanel().repaint();

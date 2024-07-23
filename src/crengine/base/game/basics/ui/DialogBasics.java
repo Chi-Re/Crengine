@@ -3,7 +3,9 @@ package crengine.base.game.basics.ui;
 import crengine.Core;
 import crengine.base.DisplayContent;
 import crengine.base.Location;
+import crengine.base.game.basics.ui.subassembly.Button;
 import crengine.base.game.entity.Entity;
+import crengine.util.serialization.ObjectList;
 
 import java.awt.*;
 
@@ -31,6 +33,12 @@ public abstract class DialogBasics extends DisplayContent implements Entity {
 
     public int location;
 
+    public boolean update = false;
+
+    private final ObjectList<TableBasics> cont = new ObjectList<>();
+
+    public int width, height;
+
     public DialogBasics(String name, int location) {
         super(name);
         this.x=0;
@@ -42,10 +50,22 @@ public abstract class DialogBasics extends DisplayContent implements Entity {
         this(name, 0);
     }
 
+    public void setSize(int width, int height){
+        this.width = width;
+        this.height = height;
+    }
+
 
     @Override
     public void update(Runnable run) {
+        if (location == this.full || this.width != Core.settings.getAppWidth() ||
+                this.height != Core.settings.getAppHeight()){
+            this.setSize(Core.settings.getAppWidth(), Core.settings.getAppHeight());
+        }
 
+        for (var b : this.cont.getAny()){
+            b.update();
+        }
     }
 
     @Override
@@ -71,5 +91,10 @@ public abstract class DialogBasics extends DisplayContent implements Entity {
         }else{
             show();
         }
+    }
+
+
+    public void button(String name, Runnable run){
+        this.cont.add(new Button(name, run));
     }
 }

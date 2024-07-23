@@ -16,6 +16,7 @@ public class GamePanel extends JPanel implements Loadable {
     public void paint(Graphics g) {
         super.paint(g);
         for (var dialogs : Core.content.getDialog().getAny()){
+            if (dialogs.update) dialogs.update();
             dialogs.drawImage(g);
         }
     }

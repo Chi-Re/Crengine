@@ -2,6 +2,7 @@ package crengine.assets.graphics;
 
 import crengine.Core;
 import crengine.base.Drawable;
+import crengine.util.Nullable;
 
 import java.awt.*;
 
@@ -12,6 +13,8 @@ public class TextureRegion implements Drawable {
     private int width, height;
 
     private int x, y;
+
+    private @Nullable Color bgcolor = null;
 
     public TextureRegion(Texture texture, int x, int y, int width, int height) {
         if (texture == null) texture = Core.asset.empty;
@@ -46,6 +49,10 @@ public class TextureRegion implements Drawable {
         this.y = y;
     }
 
+    public void setColor(Color color){
+        this.bgcolor = color;
+    }
+
     public int getWidth(){
         return this.width;
     }
@@ -57,12 +64,16 @@ public class TextureRegion implements Drawable {
     @Override
     public void drawImage(Graphics g, int x, int y) {
         this.set(x, y);
-        g.drawImage(this.getImage(), this.x, this.y, this.width, this.height, null);
+        this.drawImage(g);
     }
 
     @Override
     public void drawImage(Graphics g) {
-        g.drawImage(this.getImage(), this.x, this.y, this.width, this.height, null);
+        if (this.bgcolor == null) {
+            g.drawImage(this.getImage(), this.x, this.y, this.width, this.height, null);
+        } else {
+            g.drawImage(this.getImage(), this.x, this.y, this.width, this.height, this.bgcolor, null);
+        }
     }
 
     protected Image getImage() {
