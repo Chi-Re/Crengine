@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a95021-8044-4135-b8c2-28cea92b3e1f" name="变更" comment="炽热S">
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/dialog/GameDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/subassembly/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crengine/ApplicationCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/ApplicationCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crengine/application/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/application/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crengine/assets/graphics/TextureRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/assets/graphics/TextureRegion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/DialogBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/DialogBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/TableBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crengine/base/game/basics/ui/TableBasics.java" afterDir="false" />
-    </list>
+    <list default="true" id="91a95021-8044-4135-b8c2-28cea92b3e1f" name="变更" comment="炽热S" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702303581956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="炽热S">
+      <created>1721738719420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721738719421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
